@@ -1,0 +1,43 @@
+local colors = {
+	normal_bg = "#1e1e1e", -- Dark background for normal text
+	normal_fg = "#c6c6c6", -- Light grey foreground for normal text
+	comment = "#fefefe", -- Greyed out comments for minimal distraction
+	constant = "#34ebde", -- Bright white for constants
+	string = "#43e031", -- Bright pink for strings, typical of synthwave
+	character = "#56b6c2", -- Cyan for characters, vibrant synthwave color
+	number = "#f97e72", -- Soft neon red for numbers
+	boolean = "#ae81ff", -- Soft purple for booleans, synthwave inspired
+	float = "#ae81ff", -- Same purple for floats, consistency with booleans
+	identifier = "#bbbbbb", -- Light grey for identifiers, subdued yet readable
+	name = "0000ff",
+	function_name = "#ff0000", -- Same as normal foreground, for simplicity
+	statement = "#ffcb8b", -- Bright orange for statements, catching the eye
+	conditional = "#ff759f", -- Pink for conditionals, vivid and noticeable
+	repeat_group = "#ffcb8b", -- Bright orange for loops, emphasizes repetition
+	label = "#9aedfe", -- Bright blue for labels, very synthwave
+	operator = "#9aedfe", -- Bright blue for operators, consistency with labels
+	keyword = "#c678dd", -- Soft lavender for keywords, distinct yet subtle
+	variable = "#0000ff", -- Soft yellow for variables, readable
+	--variable_name = "#e5c07b", -- Soft yellow for variables, readable
+	type = "#ffffff", -- White for types, standing out against the background
+	storage_class = "#ffffff", -- White for storage classes, maintaining high visibility
+	structure = "#e5c07b", -- Light yellow for structure, visibility without distraction
+	typedef = "#bbbbbb", -- Grey for typedefs, blends well with identifiers
+	special = "#61afef", -- Electric blue for special items, synthwave core
+	special_char = "#9aedfe", -- Bright blue for special characters, keeping synth style
+	tag = "#ff759f", -- Bright pink for tags (HTML/XML), noticeable
+	delimiter = "#abb2bf", -- Subtle grey for delimiters, contrasting slightly
+	special_comment = "#5c5f66", -- Grey for special comments, toned down
+	debug = "#ff6c6b", -- Neon red for debug statements, urgent and bright
+	error = "#ff6c6b", -- Neon red for errors, similar to debug for consistency
+	todo = "#c678dd", -- Lavender for TODO comments, noticeable yet not jarring
+	include = "#61afef", -- Bright blue for include statements, eye-catching
+	preproc = "#bbbbbb", -- Grey for preprocessor directives, not too distracting
+	macro = "#e5c07b", -- Light yellow for macros, easily distinguishable
+	precondit = "#ff759f", -- Pink for preconditional directives, stands out
+	title = "#61afef", -- Bright blue for titles and headings, core synthwave color
+	url = "#ae81ff", -- Soft purple for URLs, stylish and readable
+	folder = "#e5c07b", -- Light yellow for folders, consistent with other structural elements
+}
+
+return colors
