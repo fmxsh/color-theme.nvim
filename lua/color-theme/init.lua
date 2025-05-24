@@ -259,7 +259,7 @@ local function current_day_of_year()
 	return math.floor((now - start_of_year) / (24 * 60 * 60)) + 1
 end
 
-local color_adjuster = require("phxman.color_adjuster")
+local color_adjuster = require("phxm.color_adjuster")
 
 -- Function to shift all colors in the table
 function M.shift_colors(colors)
